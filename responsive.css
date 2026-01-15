@@ -1,0 +1,606 @@
+@media screen and (max-width: 768px) {
+
+    @media (orientation: portrait) {
+
+        .launch {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+            z-index: 100;
+        }
+
+        .image {
+            position: relative;
+            display: inline-block;
+        }
+
+        .cr {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            color: white;
+            font-size: 7px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        .logo1 {
+            position: fixed;
+            left: 5px;
+            bottom: 1%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 8%;
+            width: 50px;
+        }
+
+        .logo2 {
+            background-color: rgba(255, 255, 255, 0.9);
+            position: fixed;
+            left: 60px;
+            bottom: 2%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 6%;
+            width: 70px;
+        }
+
+        .logo3 {
+            position: relative;
+            left: 60px;
+            bottom: 0%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 20%;
+            width: 180px;
+        }
+
+        .logo4 {
+            position: relative;
+            left: 60px;
+            bottom: 0%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 20%;
+            width: 180px;
+        }
+
+
+        .launch.on {
+            display: flex;
+        }
+
+        .rond {
+        }
+
+        .tel {
+            display: block;
+            font-size: 0px;
+            border: black solid 3px;
+            padding-right: 120px;
+            padding-bottom: 210px;
+            border-radius: 5%;
+            margin-bottom: 50px;
+            animation: spin 2s infinite alternate;
+            animation-delay: 600ms;
+        }
+
+        @keyframes spin {
+            0%, 40% {
+                transform: rotate(0deg);
+            } 60%, 100% {
+                  transform: rotate(90deg);
+              }
+        }
+
+        @-webkit-keyframes spin {
+            0%, 40% {
+                -webkit-transform: rotate(0deg);
+            } 60%, 100% {
+                  -webkit-transform: rotate(90deg);
+              }
+        }
+
+        @-moz-keyframes spin {
+            0%, 40% {
+                -moz-transform: rotate(0deg);
+            } 60%, 100% {
+                  -moz-transform: rotate(90deg);
+              }
+        }
+
+        @-ms-keyframes spin {
+            0%, 40% {
+                -ms-transform: rotate(0deg);
+            } 60%, 100% {
+                  -ms-transform: rotate(90deg);
+              }
+        }
+
+        .launch-text {
+            text-align: center;
+        }
+
+        .launch-valider {
+            margin-top: 30px;
+            font-size: 20px;
+            border: none;
+            padding: 7px;
+            background-color: #22C55E;
+            border-radius: 10px;
+            color: white;
+        }
+
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            width: 90%;
+            height: 85%;
+            justify-content: space-evenly;
+            background-color: white;
+            border-radius: 8px;
+            z-index: 300;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .img {
+            width: 172px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .slide {
+            width: 172px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .popup-img {
+            width: 172px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .description {
+            padding-left: 20px;
+            padding-right: 20px;
+            max-height: 50%;
+            overflow-y: scroll;
+            width: 100%;
+        }
+
+        .scroll-container {
+            height: 100vh;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            background: #f4f4f4;
+            position: relative;
+        }
+
+        .svg-lien {
+            min-width: 15px;
+            min-height: 15px;
+            width: 45px;
+            position: fixed;
+            right: 10%;
+            bottom: 50%;
+        }
+
+        .svg-lien2 {
+            min-width: 15px;
+            min-height: 15px;
+            width: 45px;
+            position: fixed;
+            right: 10%;
+            bottom: 60%;
+        }
+
+        .image-wrapper {
+            height: 100%;
+            width: max-content;
+        }
+
+       .image-wrapper .map {
+           width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slide {
+            position: fixed;
+        height: 10%;
+            width: 20%;
+        left: 50%;
+        bottom: 5%;
+        transform: translateX(-50%);
+
+        }
+
+    .titre {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        padding: 10px;
+        font-size: 20px;
+        position: fixed;
+        text-align: center;
+        top: 25px;
+        width:  45vh;
+    }
+
+
+
+        .description a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .logo4 {
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 15%;
+            width: 140px;
+        }
+
+        .svg-lien3 {
+            width: 20px;
+            height: 20px;
+            filter: brightness(0) saturate(100%) invert(30%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(90%);
+            align-items: center;
+            color: red;
+        }
+
+        .ouvre_popup2 {
+            position: fixed;
+            top: 95%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+
+            /* Design du bouton */
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        .ouvre_popup2:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transform: translate(-50%, -55%);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .description2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .logo5 {
+            width: 100%;
+        }
+
+        .logo6 {
+            width: 40%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .container-logo {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .texte-top {
+            font-weight: bold;
+            margin-bottom: 20px; /* Espace sous le titre */
+            font-size: 14px;
+        }
+
+        .svg-lien2I {
+            min-width: 25px;
+            min-height: 25px;
+            width: 40px;
+            position: fixed;
+            right: 2%;
+            bottom: 2%;
+        }
+
+        .svg-lienI {
+            min-width: 25px;
+            min-height: 25px;
+            width: 40px;
+            position: fixed;
+            right: 14%;
+            bottom: 2%;
+        }
+
+ }
+    @media (orientation: landscape) {
+        html, body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body {
+            flex-direction: row;
+
+        }
+
+        .titre {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 40px;
+            padding: 10px;
+            font-size: 15px;
+            position: absolute;
+            text-align: center;
+            top: 25px;
+            width:  60vh;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .description {
+            display: block;
+            max-height: 75%;
+            overflow-y: scroll;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .img {
+            width: 45vh;
+            height: 45vw;
+            margin: 15px;
+        }
+
+        .popup-img {
+            width: 45vh;
+            height: 45vw;
+            margin: 15px;
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: none;
+            align-items: center;
+            width: 150vh;
+            height: 50vw;
+            background-color: white;
+            border-radius: 8px;
+            z-index: 300;
+        }
+
+        .scroll-container {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .image-wrapper {
+            height: 100%;
+            width: 100%;
+        }
+
+        .image-wrapper img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .ouvre_popup {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 70px;
+            padding: 25px;
+            cursor: pointer;
+            border: 5px solid white;
+            z-index: 2;
+            transform: translate(-50%, -50%);
+        }
+
+        .image {
+            position: relative;
+            display: inline-block;
+        }
+
+        .cr {
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+            color: white;
+            font-size: 7px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 3px;
+            border-radius: 3px;
+        }
+
+        .svg-lien {
+            min-width: 15px;
+            min-height: 15px;
+            width: 24px;
+            position: fixed;
+            right: 9%;
+            bottom: 1%;
+        }
+
+        .svg-lien2 {
+            min-width: 15px;
+            min-height: 15px;
+            width: 24px;
+            position: fixed;
+            right: 2%;
+            bottom: 1%;
+        }
+
+        .logo1 {
+            position: fixed;
+            left: 3px;
+            bottom: 1%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 8%;
+            width: 50px;
+        }
+
+        .logo2 {
+            background-color: rgba(255, 255, 255, 0.9);
+            position: fixed;
+            left: 55px;
+            bottom: 1%;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 8%;
+            width: 45px;
+        }
+
+        .logo3 {
+            left: 60px;
+            position: relative;
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 11%;
+            width: 140px;
+        }
+
+        .description a {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .logo4 {
+            z-index: 99;
+            min-width: 25px;
+            min-height: 25px;
+            height: 5%;
+            width: 70px;
+        }
+
+        .svg-lien3 {
+            width: 20px;
+            height: 20px;
+            /* Si tu veux changer la couleur du SVG via CSS (si c'est un tracé noir de base) */
+            filter: brightness(0) saturate(100%) invert(30%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(90%);
+            align-items: center;
+            color: red;
+        }
+
+        .ouvre_popup2 {
+            position: absolute;
+            top: 90%;
+            left: 93%;
+            transform: translate(-50%, -50%);
+
+            /* Design du bouton */
+            width: 35px;
+            height: 35px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        .ouvre_popup2:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transform: translate(-50%, -55%);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .description2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            padding: 0 30px;
+            text-align: center;
+        }
+
+        .logo6 {
+            position: relative;
+            padding-top: 10px;
+            left: 0px;
+            z-index: 99;
+            width: 80px;
+            height: auto;
+            padding-right: 0;
+        }
+
+        .texte-top {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .svg-lienI {
+            min-width: 25px;
+            min-height: 25px;
+            width: 35px;
+            position: fixed;
+            right: 10%;
+            bottom: 2%;
+        }
+
+        .svg-lien2I {
+            min-width: 25px;
+            min-height: 25px;
+            width: 35px;
+            position: fixed;
+            right: 2%;
+            bottom: 2%;
+        }
+
+    }
+}
+
+.close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}

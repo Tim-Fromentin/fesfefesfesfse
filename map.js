@@ -22,6 +22,8 @@ openButtons.forEach(button => {
     });
 });
 
+
+
 openButtons2.forEach(button => {
     button.addEventListener("click", () => {
         closeAll()
@@ -56,3 +58,4 @@ closeButtons2.forEach(closeButton2 => {
         }
     });
 });
+
